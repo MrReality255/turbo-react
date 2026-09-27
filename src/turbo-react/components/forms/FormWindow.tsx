@@ -29,7 +29,12 @@ export function TFormWindow(p: TFormWindowProps & { isLoading: boolean }) {
         <>
             <TGlass visible backdrop></TGlass>
             <TGlass visible>
-                <TViewport centerH centerV width={'600px'} height={'480px'}>
+                <TViewport
+                    centerH
+                    centerV
+                    width={p.width ?? '640px'}
+                    height={p.height ?? '480px'}
+                >
                     <TWindow
                         onClose={() => {
                             frm.close()

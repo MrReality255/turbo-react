@@ -44,6 +44,8 @@ export type TControlContainerProps = {
 }
 
 export type TFormWindowProps = TControlContainerProps & {
+    width?: string
+    height?: string
     title?: string
     children?: React.ReactNode
     buttonsLeft?: TFormButtonProps[]

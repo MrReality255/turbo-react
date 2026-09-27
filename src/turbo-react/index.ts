@@ -1,4 +1,5 @@
 export * from './components/atoms'
+export * from './components/common'
 export * from './components/forms'
 export * from './components/layout'
 export * from './components/providers'
